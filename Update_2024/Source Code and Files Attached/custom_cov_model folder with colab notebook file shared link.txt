@@ -1,0 +1,7 @@
+The custom_cov_model folder that we used in this course along with the colab notebook
+
+https://drive.google.com/drive/folders/1D75YgVBHVWGE0a6Oni8kElxk4AOQ1lN-?usp=share_link
+
+The trained weights folder cov_weights 
+
+https://drive.google.com/drive/folders/1ifCY7Zzm452Y57pnnH7GBxcJdNaSYzWy?usp=share_link

@@ -1,0 +1,5 @@
+Most often, the text output from colab server will not stream to browser after some while. This will make a feel that the process is 'stuck' and not going on.
+
+But most times, its working in the colab server. And after the reported time (3 hours approximately) the google drive will have the model generated.
+
+You may try keeping the browser open without disconnecting internet. The display may not give you logs running in the screen, but it could be working in the background.

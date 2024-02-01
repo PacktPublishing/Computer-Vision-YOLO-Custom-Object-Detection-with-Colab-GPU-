@@ -1,0 +1,23 @@
+If you are getting Error: invalid index to scalar variable
+
+Please try the following
+
+use the modified line:
+
+yolo_output_layer = [yolo_layers[yolo_layer - 1] for yolo_layer in yolo_model.getUnconnectedOutLayers()]
+
+instead of  the old line:
+
+yolo_output_layer = [yolo_layers[yolo_layer[0] - 1] for yolo_layer in yolo_model.getUnconnectedOutLayers()]
+
+In the latest version getUnconnectedOutLayers() returns an integer, which is not iterate-able 
+
+Also in the line in YOLO NMS excersise
+
+for max_valueid in max_value_ids:
+    max_class_id = max_valueid
+
+Instead of the old one
+
+for max_valueid in max_value_ids:
+    max_class_id = max_valueid[0]

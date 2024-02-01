@@ -1,0 +1,8 @@
+# three labels label 
+class_labels = ["coronavirus", "fluvirus", "bacteria"]
+
+#Declare three colors
+class_colors = ["0,255,0", "255,0,0", "0,0,255"]
+........
+........
+class_colors = np.tile(class_colors,(3,1))
